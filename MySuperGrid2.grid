@@ -1,6 +1,6 @@
 [Groups]
 
-  NumberOfGroups = 3
+  NumberOfGroups = 7
 
 [1]
   TriggerTop    = [Monitor1Top]
@@ -19,3 +19,27 @@
   TriggerRight  = [Monitor1Left] + [Monitor1Width]
   TriggerBottom = [Monitor1Top]  + [Monitor1Height]
   TriggerLeft   = [Monitor1Left] + [Monitor1Width] / 5 * 4
+
+[4]
+  TriggerTop    = [Monitor1Top]
+  TriggerRight  = [Monitor1Left] + [Monitor1Width] / 3 * 2
+  TriggerBottom = [Monitor1Top]  + [Monitor1Height]
+  TriggerLeft   = [Monitor1Left]
+
+[5]
+  TriggerTop    = [Monitor1Top]
+  TriggerRight  = [Monitor1Left] + [Monitor1Width]
+  TriggerBottom = [Monitor1Top]  + [Monitor1Height]
+  TriggerLeft   = [Monitor1Left] + [Monitor1Width] / 3
+
+[6]
+  TriggerTop    = [Monitor1Top]
+  TriggerRight  = [Monitor1Left] + [Monitor1Width] / 2
+  TriggerBottom = [Monitor1Top]  + [Monitor1Height]
+  TriggerLeft   = [Monitor1Left]
+
+[7]
+  TriggerTop    = [Monitor1Top]
+  TriggerRight  = [Monitor1Right]
+  TriggerBottom = [Monitor1Top]  + [Monitor1Height]
+  TriggerLeft   = [Monitor1Left] + [Monitor1Width] / 2
